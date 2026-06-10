@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play The Levant Express.</tw-noscript></noscript></tw-story>
-<tw-storydata name="The Levant Express" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="A1F2EF96-40A4-4F49-8EF7-B2EA677C1684" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">### Content Advisory
+<tw-storydata name="The Levant Express" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="E6DCDB6A-5D40-43A3-B8E9-73FE6ED5A942" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">### Content Advisory
 
 This game is an exploration of a speculative, liberated future, heavily inspired by the oral history format of M.E. O&#39;Brien&#39;s *Everything for Everyone*. While this world is one of borderless solidarity and collective care, the path to get here was carved through generations of survival.
 
@@ -22,24 +22,20 @@ This game is an exploration of a speculative, liberated future, heavily inspired
 
 Take a breath. 
 
-[[Step forward when you are ready.-&gt;Intro]]</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="" position="225,100" size="100,100">You are a &quot;Transit Steward&quot; on the high-speed rail line connecting Gaza, Haifa, and Jerusalem—a route that was impossible for nearly a century. Your job isn&#39;t to check passports or tickets (both of which no longer exist) but to help travelers navigate their first journey across &quot;The Ghost of the Border.&quot;
+[[Step forward when you are ready.-&gt;Intro]]</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="" position="225,100" size="100,100">You are a Transit Steward on the high-speed rail line connecting Gaza, Haifa, and Jerusalem—a route that was structurally impossible for nearly a century. Your job isn&#39;t to check passports or tickets, both of which were dismantled during the Transition, but to help travelers navigate their first journey across the ghost of the old borders.
 
-This high-speed rail doesn&#39;t follow the straight, aggressive corridors of the old capitalist world. It starts in Gaza, then goes north along the coast to Haifa, and inland up into the mountains of Jerusalem.
+This high-speed rail doesn&#39;t follow the straight, aggressive corridors of the old world. It starts in Gaza, tracking north along the coast to Haifa, before cutting inland up into the mountains of Jerusalem. 
 
-It is an anti-waste vessel. Beneath the passenger decks where travelers mingle, the cargo bays are packed with the physical ingredients of the Transition—fertilizers, maritime machinery, and the crushed aggregate of the old apartheid walls. Your job isn&#39;t to enforce borders, but to manage the human element of this rolling ecosystem.
+It is an anti-waste vessel. Beneath the passenger decks where travelers mingle, the cargo bays are packed with the physical ingredients of the Transition—fertilizers, maritime machinery, and the crushed aggregate of the old apartheid walls. Your job isn&#39;t to enforce lines in the dirt, but to manage the human element of this rolling ecosystem.
 
 (link-reveal: &quot;➥ Introduce yourself to the cabin&quot;) [
-    (transition: &quot;instant&quot;)[**Lewis:** &quot;I am Lewis Li, the transit steward for your travels. Come to me with any questions you have.&quot;]
-    {
-    (after: 1s)[
-        (transition: &quot;instant&quot;)[
-            &lt;br&gt;&lt;br&gt;
-            The passengers nod, some offering warm smiles as they settle into their seats for the historic journey ahead.
-            &lt;br&gt;&lt;br&gt;
-            [[Continue...-&gt;Encounter Vera]]
-        ]
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;Welcome on board, everyone. I am Lewis Li, the transit steward for your travels today. Please come to me with any questions or anything you need as we get underway.&quot;
+        &lt;br&gt;&lt;br&gt;
+        The passengers nod, some offering warm smiles as they settle into their seats for the historic journey ahead.
+        &lt;br&gt;&lt;br&gt;
+        [[Continue...-&gt;Encounter Vera]]
     ]
-    }
 ]</tw-passagedata><tw-passagedata pid="3" name="Encounter Vera" tags="" position="350,100" size="100,100">The high-speed rail hums softly as it accelerates out of Gaza Central. Outside the wide windows of the observation car, the train fast approaches the re-wilded perimeter where the massive concrete siege wall once stood.
 
 You find a passenger sitting rigidly by a window. She is white-knuckling an old brass key hanging from a cord around her neck, her eyes locked on the approaching horizon. 
@@ -47,369 +43,273 @@ You find a passenger sitting rigidly by a window. She is white-knuckling an old 
 **Vera:** &quot;It&#39;s gone. I mean, I know it&#39;s been gone since the Transition, but... seeing it like this. My father told me about the snipers on those towers. He told me the concrete went deep into the dirt just to stop people from digging their way out. Now it&#39;s just... grass?&quot;
 
 (link-reveal: &quot;➥ Speak as Lewis&quot;) [
-    (transition: &quot;instant&quot;)[**Lewis:** &quot;The commune&#39;s restoration teams spent years breaking down the concrete to neutralize the soil toxicity. Nature takes over fast when you stop poisoning it. They had to flush out the chemicals so the roots of the old olive groves could finally breathe again. But underneath the green, the remnants are still there. The foundations run deep.&quot;]
-    {
-    (after: 1s)[
-        (transition: &quot;instant&quot;)[
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** *(Clutching the brass key tighter around her neck)* &quot;My grandfather died inside the blockade. He used to tell me that Zionism didn&#39;t just want our land; it wanted to steal our horizon. I&#39;m looking at the horizon right now, and my chest feels like it&#39;s collapsing.&quot;
-            &lt;br&gt;&lt;br&gt;
-            (link-reveal: &quot;➥ Share your father&#39;s perspective&quot;) [
-                (transition: &quot;instant&quot;)[**Lewis:** *(Looking out at the open sky)* &quot;My dad helped patrol this exact sector back in the 2020s. When I was a kid, he&#39;d sit at the kitchen table and tell me about his shifts at &#39;the fence.&#39; He always called it that—the fence. I grew up picturing simple chain-link and wire. I didn&#39;t see an actual picture of this towering concrete until the Transition happened. I still can&#39;t believe my dad would refer to it as just a fence.&quot;]
-                
-                {
-                (after: 1s)[
-                    (transition: &quot;instant&quot;)[
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;The commune&#39;s restoration teams spent years breaking down the concrete to neutralize the soil toxicity. Nature takes over fast when you stop poisoning it. They had to flush out the chemicals so the roots of the old olive groves could finally breathe again. But underneath the green, the remnants are still there. The foundations run deep.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **Vera:** *(Clutching the brass key tighter around her neck)* &quot;My grandfather died inside the blockade. He used to tell me that Zionism didn&#39;t just want our land; it wanted to steal our horizon. I&#39;m looking at the horizon right now, and my chest feels like it&#39;s collapsing.&quot;
+        &lt;br&gt;&lt;br&gt;
+        (link-reveal: &quot;➥ Share your father&#39;s perspective&quot;) [
+            (transition: &quot;fade&quot;)[
+                **Lewis:** *(Looking out at the open sky)* &quot;My dad helped patrol this exact sector back in the 2020s. When I was a kid, he&#39;d sit at the kitchen table and tell me about his shifts at &#39;the fence.&#39; He always called it that—the fence. I grew up picturing simple chain-link and wire. I didn&#39;t see an actual picture of this towering concrete until the Transition happened. I still can&#39;t believe my dad would refer to it as just a fence.&quot;
+                &lt;br&gt;&lt;br&gt;
+                **Vera:** *(Turning from the glass to look at him)* &quot;They had to call it something small, Lewis. Otherwise, they&#39;d have to admit what they were keeping people inside of. They had to minimize the prison to justify the cage.&quot;
+                &lt;br&gt;&lt;br&gt;
+                (link-reveal: &quot;➥ Explain your name change&quot;) [
+                    (transition: &quot;fade&quot;)[
+                        **Lewis:** *(Nods slowly)* &quot;Yeah. It took me twenty years to realize his language was just another way to hide the horizon from his own conscience. When the walls finally came down, I knew I couldn&#39;t carry his legacy into the new world. I dropped his surname entirely and took my mother&#39;s last name. I&#39;m Lewis Li now. I&#39;d rather belong to her side of the world—to a future that doesn&#39;t build walls.&quot;
                         &lt;br&gt;&lt;br&gt;
-                        **Vera:** *(Turning from the glass to look at him)* &quot;They had to call it something small, Lewis. Otherwise, they&#39;d have to admit what they were keeping people inside of. They had to minimize the prison to justify the cage.&quot;
+                        ---
+                        &lt;br&gt;
+                        What path will you emphasize in guiding her journey?
                         &lt;br&gt;&lt;br&gt;
-                        (link-reveal: &quot;➥ Explain your name change&quot;) [
-                            (transition: &quot;instant&quot;)[**Lewis:** *(Nods slowly)* &quot;Yeah. It took me twenty years to realize his language was just another way to hide the horizon from his own conscience. When the walls finally came down, I knew I couldn&#39;t carry his legacy into the new world. I dropped his surname entirely and took my mother&#39;s last name. I&#39;m Lewis Li now. I&#39;d rather belong to her side of the world—to a future that doesn&#39;t build walls.&quot;]
-                            
-                            {
-                            (after: 1s)[
-                                (transition: &quot;instant&quot;)[
-                                    &lt;br&gt;&lt;br&gt;
-                                    ---
-                                    &lt;br&gt;
-                                    What path will you emphasize in guiding her journey?
-                                    &lt;br&gt;&lt;br&gt;
-                                    [[Sit with her, acknowledging what the key means.-&gt;Option A]]
-                                    &lt;br&gt;
-                                    [[Encourage her, focusing on the borderless world waiting for her.-&gt;Option B]]
-                                ]
-                            ]
-                            }
-                        ]
+                        [[Sit with her, acknowledging what the key means.-&gt;Option A]]
+                        [[Encourage her, focusing on the borderless world waiting for her.-&gt;Option B]]
                     ]
                 ]
-                }
             ]
         ]
     ]
-    }
-]</tw-passagedata><tw-passagedata pid="4" name="Option A" tags="" position="475,100" size="100,100">The train crosses the former &quot;Green Line,&quot; now a lush forest.
+]</tw-passagedata><tw-passagedata pid="4" name="Option A" tags="" position="475,100" size="100,100">The train crosses the former &quot;Green Line,&quot; now a lush, continuous forest.
 
-**Vera:** &quot;Guys, look out the window right now. I can&#39;t believe this forest was once the hostile &#39;Green Line&#39; controlled by Israel.&quot;
+**Vera:** &quot;Look out the window right now. I can&#39;t believe this forest was once a hostile border line.&quot;
 
-(link-reveal: &quot;➥ Ask about her key&quot;) [
-    (transition: &quot;instant&quot;)[**Lewis:** &quot;Vera, if I may ask, what does that key on your neck unlock, or is it like a pendant?&quot;]
-    {
-    (after: 1s)[
-        (transition: &quot;instant&quot;)[
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** &quot;This key was unfortunately passed down through generations ever since the Israelis settled here. It is a sign that my ancestors would find a way back into what was once my family&#39;s home. They sadly died never fulfilling this dream. I remember *Sido* (Grandpa) used to tell me how he hoped to walk back into his home and now I wish to pass on his stories. You should accompany me into the &#39;Memory Bank.&#39; I was told that I could store his life there.&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** &quot;What is a &#39;Memory Bank&#39;?&quot;
-            &lt;br&gt;&lt;br&gt;
-            (link-reveal: &quot;➥ Explain the Memory Bank&quot;) [
-                (transition: &quot;instant&quot;)[**Lewis:** &quot;It records what one says and creates a written transcript so it can be stored within the library.&quot;]
-                
-                {
-                (after: 1s)[
-                    (transition: &quot;instant&quot;)[
+(link-reveal: &quot;➥ Suggest the Memory Bank&quot;) [
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;Vera, if I may ask, what does that key on your neck unlock, or is it a pendant? If it&#39;s a family token, you might want to consider indexing it in our Memory Bank before we reach the terminal.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **Vera:** &quot;This key was passed down through generations ever since my family was displaced. It was a promise that we would find a way back into what was once our home. My ancestors sadly died never fulfilling this dream. I remember *Sido* (Grandpa) used to tell me how he hoped to walk back into his courtyard, and now I want to carry his stories forward... But what exactly is a &#39;Memory Bank&#39;?&quot;
+        &lt;br&gt;&lt;br&gt;
+        (link-reveal: &quot;➥ Explain the platform&quot;) [
+            (transition: &quot;fade&quot;)[
+                **Lewis:** &quot;It records what you say and creates a permanent written transcript so it can be preserved within the regional library archive. It makes sure oral histories don&#39;t get lost in the transition between worlds.&quot;
+                &lt;br&gt;&lt;br&gt;
+                **Vera:** &quot;I want Grandpa to be remembered—his struggles and his joys. I&#39;m just not fully sure how to word his life. Is it okay if I recite something in front of you and you tell me how it sounds?&quot;
+                &lt;br&gt;&lt;br&gt;
+                (link-reveal: &quot;➥ Agree to listen&quot;) [
+                    (transition: &quot;fade&quot;)[
+                        **Lewis:** &quot;Yeah, sure, go right ahead. I do warn you, I don&#39;t know if I&#39;ll be much help, but I&#39;m listening.&quot;
                         &lt;br&gt;&lt;br&gt;
-                        **Vera:** &quot;I want Grandpa to be remembered—his struggles and joys. I&#39;m just not fully sure on how to word his life. Is it okay if I recite something in front of you and you tell me how it sounds?&quot;
+                        Vera speaks, her voice trembling slightly as she pieces together decades of family history. Working together in the quiet corner of the cabin, you gently help her refine certain details, giving her grandfather&#39;s memory space to shine. By the time she finishes, she wipes away a tear, finding comfort in the quiet, dedicated room you&#39;ve provided.
                         &lt;br&gt;&lt;br&gt;
-                        (link-reveal: &quot;➥ Agree to listen&quot;) [
-                            (transition: &quot;instant&quot;)[**Lewis:** &quot;Yeah sure, go right ahead. I do warn you, I don&#39;t know if I&#39;ll be much help.&quot;]
-                            
-                            {
-                            (after: 1s)[
-                                (transition: &quot;instant&quot;)[
-                                    &lt;br&gt;&lt;br&gt;
-                                    Vera gives Lewis her proposed speech. He gently touches up on certain details to make her grandfather&#39;s memory shine, and they agree on a final draft. She wipes away a tear as she finishes reciting it, finding comfort in the quiet space you&#39;ve provided.
-                                    &lt;br&gt;&lt;br&gt;
-                                    [[Continue the journey...-&gt;Convergence Path A]]
-                                ]
-                            ]
-                            }
-                        ]
+                        [[Continue the journey...-&gt;Convergence Path A]]
                     ]
                 ]
-                }
             ]
         ]
     ]
-    }
-]</tw-passagedata><tw-passagedata pid="5" name="Option B" tags="" position="600,100" size="100,100">The train slows as it approaches a rural platform. 
+]</tw-passagedata><tw-passagedata pid="5" name="Option B" tags="" position="600,100" size="100,100">The train slows as it approaches a rural agricultural platform along the coastal plain. 
 
-**Vera:** &quot;I think this is our stop! The commune workers need help loading the fresh citrus crates onto the train before we leave. Let&#39;s each split up and take a part so we can work faster.&quot;
-
-{
-(after: 1s)[
-    (transition: &quot;instant&quot;)[
-        **Passenger:** &quot;I can organize the boxes so nothing gets damaged during transportation.&quot;
+(link-reveal: &quot;➥ Organize the cabin for the cargo shift&quot;) [
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;Alright passengers, we are pausing briefly at the local agricultural platform to load supplies for the communes up north. We need a quick volunteer group to help load fresh citrus crates so we can stay on schedule. Let&#39;s split up the labor.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **Passenger:** &quot;I can organize the boxes in the back so nothing gets damaged during transportation.&quot;
         &lt;br&gt;&lt;br&gt;
         **Passenger 2:** &quot;I&#39;ll help carry the smaller crates into the storage car.&quot;
-    ]
-]
-}
-
-(link-reveal: &quot;➥ Coordinate the volunteers&quot;) [
-    (transition: &quot;instant&quot;)[**Lewis:** &quot;Great teamwork, everyone. Make sure we move carefully and help each other.&quot;]
-    
-    {
-    (after: 1s)[
-        (transition: &quot;instant&quot;)[
-            &lt;br&gt;&lt;br&gt;
-            ---
-            &lt;br&gt;
-            Suddenly, the solar-kinetic tracks flicker, and the overhead cabin lights dim significantly.
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** &quot;Guys, this is not a good sign. The lights shouldn&#39;t be flickering like this. What&#39;s happening to the tracks?&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Mechanic:** &quot;Hey, I heard there is a problem with the solar-kinetic tracks. I&#39;m luckily a mechanic. I just checked the control panel. There was a major problem with the solar-kinetic system, and if we lose more power, the engine could completely shut down. The only way to keep us moving is to divert electricity from the luxury lounge lights directly into the engine.&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Passenger:** &quot;Will that actually work?&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Mechanic:** &quot;It has to. If we don&#39;t act fast, this train could stop in the middle of nowhere.&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** &quot;Then let&#39;s do it before things get worse. Everyone stay calm and help however you can.&quot;
-            &lt;br&gt;&lt;br&gt;
-            ---
-            &lt;br&gt;
-            As the power shifts away from the luxury amenities, the lounge goes dim, but a group of youth camp students steps up to break the tension.
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** &quot;Woah... what is going on in here?&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Student:** &quot;Come on, join us! This is a traditional Dabke dance, everyone dances together. We figured if we are stuck on this train, we might as well keep people hopeful.&quot;
-            &lt;br&gt;&lt;br&gt;
-            For the first time in hours, some passengers begin smiling again. Even exhausted travelers tap their feet to the rhythm while children laugh near the tables. The atmosphere slowly shifts from anxiety to community solidarity.
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** &quot;Okay... I&#39;ll admit, this actually looks fun. But we still need to stay focused. Let&#39;s keep the celebration going, but try not to make too much noise. People are still nervous, and the mechanics need space to work.&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Student:** &quot;Got it, we&#39;ll keep things under control.&quot;
-            &lt;br&gt;&lt;br&gt;
-            Slowly, the train&#39;s primary power stabilizes as the engine catches the diverted current, safely moving toward the next main hub.
-            &lt;br&gt;&lt;br&gt;
-            [[Continue the journey...-&gt;Convergence Path B]]
+        &lt;br&gt;&lt;br&gt;
+        **Lewis:** &quot;Great teamwork, everyone. Make sure we move carefully and support each other.&quot;
+        &lt;br&gt;&lt;br&gt;
+        ---
+        &lt;br&gt;
+        Suddenly, the solar-kinetic tracks flicker, and the overhead cabin lights dim significantly. The soft hum of the climate control cuts out, and a stagnant warmth begins to creep through the vents.
+        &lt;br&gt;&lt;br&gt;
+        **Lewis:** &quot;Everyone stay seated. The power grid along this sector is fluctuating.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **Mechanic:** &quot;Steward, I just checked the primary control panel. There is a major fault in the solar-kinetic track feeding the sub-station. If we lose any more primary current, the engine will completely stall out. The only way to keep us moving is to divert electricity—we need to shut down the luxury lounge lights and completely cut the cabin cooling systems, routing everything straight into the primary engine.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **Passenger:** &quot;Will that actually give us enough power to pull the weight?&quot;
+        &lt;br&gt;&lt;br&gt;
+        **Mechanic:** &quot;Siphoning just the lights wouldn&#39;t cut it, but dropping the cooling compressors gives us the exact amperage we need. It&#39;s going to get warm in here, but it has to be done. If we don&#39;t act fast, this train stops in the middle of nowhere.&quot;
+        &lt;br&gt;&lt;br&gt;
+        (link-reveal: &quot;➥ Authorize the power diversion&quot;) [
+            (transition: &quot;fade&quot;)[
+                **Lewis:** &quot;Do it. Cut the auxiliary lines and drop the air conditioning. Keeping us moving safely is our top priority. Everyone else, please remain calm and patient while we work through this.&quot;
+                &lt;br&gt;&lt;br&gt;
+                ---
+                &lt;br&gt;
+                As the air grows heavy and the lounge dim, a group of youth camp students steps up to break the rising anxiety in the cabin.
+                &lt;br&gt;&lt;br&gt;
+                **Lewis:** &quot;Looks like we have some movement in the lounge car.&quot;
+                &lt;br&gt;&lt;br&gt;
+                **Student:** &quot;Come on, join us! This is a traditional Dabke dance, everyone dances together. We figured if we are stuck sweating on this train, we might as well keep people hopeful.&quot;
+                &lt;br&gt;&lt;br&gt;
+                For the first time in hours, the heavy mood lifts. Some passengers begin smiling, exhausted travelers tap their feet to the rhythm, and children laugh near the tables. The atmosphere shifts entirely from grid anxiety to mutual solidarity.
+                &lt;br&gt;&lt;br&gt;
+                **Lewis:** &quot;This is beautiful, but remember to watch your step near the structural bulkheads. Let&#39;s keep the celebration going, but keep a clear lane so the mechanics can monitor the manual over-rides.&quot;
+                &lt;br&gt;&lt;br&gt;
+                **Student:** &quot;Got it, steward. We&#39;ll keep the rhythm going and keep the paths clear.&quot;
+                &lt;br&gt;&lt;br&gt;
+                Slowly, the train&#39;s primary power stabilizes as the engine catches the diverted current, safely maintaining headway toward the next main hub.
+                &lt;br&gt;&lt;br&gt;
+                [[Continue the journey...-&gt;Convergence Path B]]
+            ]
         ]
     ]
-    }
-]</tw-passagedata><tw-passagedata pid="6" name="Convergence Path A" tags="" position="725,100" size="100,100">The train eventually rolls into Haifa Station, brakes hissing loudly beneath the glowing platform lights. The tension that filled the cabins slowly fades as passengers step out onto the platform.
+]</tw-passagedata><tw-passagedata pid="6" name="Convergence Path A" tags="" position="725,100" size="100,100">The train eventually rolls into Haifa Station, brakes hissing loudly beneath the glowing platform lights. The tension that filled the cabins throughout the journey slowly fades.
 
-**Vera:** &quot;Alright everyone, we finally made it to Haifa. Let&#39;s grab our bags and head to the platform so we can switch trains.&quot;
-
-{
-(after: 1s)[
-    (transition: &quot;instant&quot;)[
-        Passengers gather near the next boarding track as a sleek connecting commuter liner glides to a stop.
+(link-reveal: &quot;➥ Instruct the passengers&quot;) [
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;Attention passengers, we have arrived at Haifa Station. Please gather all of your personal items and belongings carefully. We will be transferring smoothly to the connecting mountain liner across the platform to complete our route to Jerusalem.&quot;
         &lt;br&gt;&lt;br&gt;
-        **Vera:** &quot;Ok guys, our train is here. Let&#39;s stay organized and start filling the seats from back to front so everyone can get settled quickly.&quot;
+        Passengers begin flowing through the station, gathering near the next boarding track as a sleek connecting commuter liner glides to a stop.
+        &lt;br&gt;&lt;br&gt;
+        **Lewis:** &quot;Let&#39;s stay organized as we board, folks. Please fill the seats from back to front so everyone can get settled quickly without bottlenecking the aisles.&quot;
         &lt;br&gt;&lt;br&gt;
         [[Board the connecting train...-&gt;Conflict Path A]]
     ]
-]
-}</tw-passagedata><tw-passagedata pid="7" name="Convergence Path B" tags="" position="850,100" size="100,100">The train eventually rolls into Haifa Station, brakes hissing loudly beneath the glowing platform lights. The tension that filled the cabins slowly fades as passengers step out onto the platform.
+]</tw-passagedata><tw-passagedata pid="7" name="Convergence Path B" tags="" position="850,100" size="100,100">The train eventually rolls into Haifa Station, brakes hissing loudly beneath the glowing platform lights. The tension that filled the cabins throughout the journey slowly fades.
 
-**Vera:** &quot;Alright everyone, we finally made it to Haifa. Let&#39;s grab our bags and head to the platform so we can switch trains.&quot;
-
-{
-(after: 1s)[
-    (transition: &quot;instant&quot;)[
-        Passengers gather near the next boarding track as a sleek connecting commuter liner glides to a stop.
+(link-reveal: &quot;➥ Instruct the passengers&quot;) [
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;Attention passengers, we have arrived at Haifa Station. Please gather all of your personal items and belongings carefully. We will be transferring smoothly to the connecting mountain liner across the platform to complete our route to Jerusalem.&quot;
         &lt;br&gt;&lt;br&gt;
-        **Vera:** &quot;Ok guys, our train is here. Let&#39;s stay organized and start filling the seats from back to front so everyone can get settled quickly.&quot;
+        Passengers begin flowing through the station, gathering near the next boarding track as a sleek connecting commuter liner glides to a stop.
+        &lt;br&gt;&lt;br&gt;
+        **Lewis:** &quot;Let&#39;s stay organized as we board, folks. Please fill the seats from back to front so everyone can get settled quickly without bottlenecking the aisles.&quot;
         &lt;br&gt;&lt;br&gt;
         [[Board the connecting train...-&gt;Conflict Path B]]
     ]
-]
-}</tw-passagedata><tw-passagedata pid="8" name="Conflict Path A" tags="" position="975,100" size="100,100">As people start filling into the train and sitting down, Vera watches passengers squeeze into rows while others stand in the narrow aisles holding onto overhead rails. The atmosphere grows tense again as exhaustion from the long journey begins affecting everyone&#39;s patience.
+]</tw-passagedata><tw-passagedata pid="8" name="Conflict Path A" tags="" position="975,100" size="100,100">As people start filling into the train and sitting down, you watch passengers squeeze into rows while others stand in the narrow aisles holding onto overhead rails. The atmosphere grows tense again as exhaustion from the long journey begins affecting everyone&#39;s patience.
 
 Near the middle of the cabin, a young passenger carefully approaches an older man sitting alone across two seats, his bags spread beside him.
 
 **Passenger:** &quot;Excuse me, sir... would it be alright if I sat here? There aren&#39;t many seats left.&quot;
 
-{
-(after: 1s)[
-    (transition: &quot;instant&quot;)[
-        The older man barely looks up, shifting away defensively.
-        &lt;br&gt;&lt;br&gt;
-        **Elder:** &quot;No, I was here first, and I have the right to sit alone. Go find another seat.&quot;
-        &lt;br&gt;&lt;br&gt;
-        **Passenger:** &quot;But sir, there aren&#39;t any other seats available. I don&#39;t mind sharing the space.&quot;
-        &lt;br&gt;&lt;br&gt;
-        **Elder:** &quot;Too bad. I&#39;m keeping my things here, and I&#39;m not moving them.&quot;
-        &lt;br&gt;&lt;br&gt;
-        ---
-        &lt;br&gt;
-        Tensions rise in the crowded aisle. As the Transit Steward, how do you handle his aggression?
-        &lt;br&gt;&lt;br&gt;
-        [[Cite the Commune&#39;s agreed-upon codes of conduct.-&gt;Choice AC]]
-        &lt;br&gt;
-        [[Ignore his aggression and offer him tea, treating his anger as a symptom of &quot;Market-Brain&quot; sickness.-&gt;Choice AD]]
-    ]
-]
-}</tw-passagedata><tw-passagedata pid="9" name="Conflict Path B" tags="" position="1100,100" size="100,100">As people start filling into the train and sitting down, Vera watches passengers squeeze into rows while others stand in the narrow aisles holding onto overhead rails. The atmosphere grows tense again as exhaustion from the long journey begins affecting everyone&#39;s patience.
+The older man barely looks up, shifting away defensively.
+
+**Elder:** &quot;No, I was here first, and I have the right to sit alone. Go find another seat.&quot;
+
+**Passenger:** &quot;But sir, there aren&#39;t any other seats available. I don&#39;t mind sharing the space.&quot;
+
+**Elder:** &quot;Too bad. I&#39;m keeping my things here, and I&#39;m not moving them.&quot;
+
+---
+
+Tensions rise in the crowded aisle. As the Transit Steward, how do you handle his aggression?
+
+[[Cite the Commune&#39;s agreed-upon codes of conduct.-&gt;Choice AC]]
+[[Ignore his aggression and offer him tea, treating his anger as a symptom of the old world.-&gt;Choice AD]]</tw-passagedata><tw-passagedata pid="9" name="Conflict Path B" tags="" position="1100,100" size="100,100">As people start filling into the train and sitting down, you watch passengers squeeze into rows while others stand in the narrow aisles holding onto overhead rails. The atmosphere grows tense again as exhaustion from the long journey begins affecting everyone&#39;s patience.
 
 Near the middle of the cabin, a young passenger carefully approaches an older man sitting alone across two seats, his bags spread beside him.
 
 **Passenger:** &quot;Excuse me, sir... would it be alright if I sat here? There aren&#39;t many seats left.&quot;
 
-{
-(after: 1s)[
-    (transition: &quot;instant&quot;)[
-        The older man barely looks up, shifting away defensively.
-        &lt;br&gt;&lt;br&gt;
-        **Elder:** &quot;No, I was here first, and I have the right to sit alone. Go find another seat.&quot;
-        &lt;br&gt;&lt;br&gt;
-        **Passenger:** &quot;But sir, there aren&#39;t any other seats available. I don&#39;t mind sharing the space.&quot;
-        &lt;br&gt;&lt;br&gt;
-        **Elder:** &quot;Too bad. I&#39;m keeping my things here, and I&#39;m not moving them.&quot;
-        &lt;br&gt;&lt;br&gt;
-        ---
-        &lt;br&gt;
-        Tensions rise in the crowded aisle. As the Transit Steward, how do you handle his aggression?
-        &lt;br&gt;&lt;br&gt;
-        [[Cite the Commune&#39;s agreed-upon codes of conduct.-&gt;Choice BC]]
-        &lt;br&gt;
-        [[Ignore his aggression and offer him tea, treating his anger as a symptom of &quot;Market-Brain&quot; sickness.-&gt;Choice BD]]
-    ]
-]
-}</tw-passagedata><tw-passagedata pid="10" name="Choice AC" tags="" position="1225,100" size="100,100">You stand firmly, crossing your arms, and look down at his regional transit assignment marker.
+The older man barely looks up, shifting away defensively.
+
+**Elder:** &quot;No, I was here first, and I have the right to sit alone. Go find another seat.&quot;
+
+**Passenger:** &quot;But sir, there aren&#39;t any other seats available. I don&#39;t mind sharing the space.&quot;
+
+**Elder:** &quot;Too bad. I&#39;m keeping my things here, and I&#39;m not moving them.&quot;
+
+---
+
+Tensions rise in the crowded aisle. As the Transit Steward, how do you handle his aggression?
+
+[[Cite the Commune&#39;s agreed-upon codes of conduct.-&gt;Choice BC]]
+[[Ignore his aggression and offer him tea, treating his anger as a symptom of the old world.-&gt;Choice BD]]</tw-passagedata><tw-passagedata pid="10" name="Choice AC" tags="" position="1225,100" size="100,100">You stand firmly, crossing your arms, and look down at his regional transit assignment marker.
 
 (link-reveal: &quot;➥ Assert the Transit Accord&quot;) [
-    (transition: &quot;instant&quot;)[**Lewis:** &quot;Sir, under Section 4 of the Levant Transit Accord, all physical space on public infrastructure belongs equally to the passengers occupying it. Private ownership of transit assets was dismantled during the general strike. If you refuse to share the booth, I will have to log a charter violation with the Haifa-Jerusalem Labor Council. We can share the space, or we can resolve this at the next regional platform.&quot;]
-    
-    {
-    (after: 1s)[
-        (transition: &quot;instant&quot;)[
-            &lt;br&gt;&lt;br&gt;
-            **The Man:** &quot;You can&#39;t just wave a collective charter and erase seventy years of defense! Gaza was a security reality. We built those walls because we had to!&quot;
-            &lt;br&gt;&lt;br&gt;
-            (link-reveal: &quot;➥ Respond about the cargo hold&quot;) [
-                (transition: &quot;instant&quot;)[**Lewis:** &quot;We are carrying aggregate from that wall in the cargo bay right now, sir. It turns out the soil inside Gaza was choked of oxygen for eighty years because of your &#39;security reality.&#39; The Accord didn&#39;t erase your history; it just stopped prioritizing your safety at the expense of another family&#39;s suffocation. Please move the bags.&quot;]
-                
-                {
-                (after: 1s)[
-                    (transition: &quot;instant&quot;)[
-                        &lt;br&gt;&lt;br&gt;
-                        The man scoffs, visibly intimidated by the unyielding structural logic of the new world. He angrily pulls his luggage tight to his chest, muttering bitterly under his breath about the &quot;total loss of order.&quot;
-                        &lt;br&gt;&lt;br&gt;
-                        [[Proceed to Jerusalem...-&gt;Background AC]]
-                    ]
-                ]
-                }
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;Sir, under Section 4 of the Levant Transit Accord, all physical space on public infrastructure belongs equally to the passengers occupying it. Private ownership of transit assets was dismantled during the general strike. If you refuse to share the booth, I will have to log a charter violation with the Haifa-Jerusalem Labor Council. We can share the space, or we can resolve this at the next regional platform.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **The Man:** &quot;You can&#39;t just wave a collective charter and erase seventy years of defense! Gaza was a security reality. We built those walls because we had to!&quot;
+        &lt;br&gt;&lt;br&gt;
+        (link-reveal: &quot;➥ Respond about the cargo hold&quot;) [
+            (transition: &quot;fade&quot;)[
+                **Lewis:** &quot;We are carrying aggregate from that wall in the cargo bay right now, sir. It turns out the soil inside Gaza was choked of oxygen for eighty years because of your &#39;security reality.&#39; The Accord didn&#39;t erase your history; it just stopped prioritizing your safety at the expense of another family&#39;s suffocation. Please move the bags.&quot;
+                &lt;br&gt;&lt;br&gt;
+                The man scoffs, visibly intimidated by the unyielding structural logic of the new world. He angrily pulls his luggage tight to his chest, muttering bitterly under his breath about the &quot;total loss of order.&quot;
+                &lt;br&gt;&lt;br&gt;
+                [[Proceed to Jerusalem...-&gt;Background AC]]
             ]
         ]
     ]
-    }
 ]</tw-passagedata><tw-passagedata pid="11" name="Choice AD" tags="" position="100,225" size="100,100">You bypass his legalistic aggression entirely, choosing to address the underlying isolation and reactionary fear of his fading mindset.
 
 You sit down right next to him, gently pushing his luggage aside just enough to make room. You pour a fresh cup of herbal tea from your steward&#39;s cart and slide it across the table toward him.
 
 (link-reveal: &quot;➥ Speak with radical empathy&quot;) [
-    (transition: &quot;instant&quot;)[**Lewis:** &quot;It&#39;s terrifying, isn&#39;t it? Knowing that the old documents don&#39;t protect you anymore. My father held those exact same papers. He thought they made him safe, but they just kept him lonely. Drink the tea. No one is taking your home away anymore, but you don&#39;t get to own the cabin.&quot;]
-    
-    {
-    (after: 2s)[
-        (transition: &quot;instant&quot;)[
-            &lt;br&gt;&lt;br&gt;
-            **The Man:** *(Staring down at the hot tea, voice trembling)* &quot;You think a cup of tea fixes this? They want us gone. They always wanted us gone. That key around her neck—that&#39;s a direct threat to my existence.&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** *(Softly, joining the booth)* &quot;It&#39;s a key to a house that was demolished in 1948 to build a parking lot for your old military base. It&#39;s not a weapon. It&#39;s just proof that we remember the names of the streets.&quot;
-            &lt;br&gt;&lt;br&gt;
-            (link-reveal: &quot;➥ Reassure him about the future&quot;) [
-                (transition: &quot;instant&quot;)[**Lewis:** &quot;My father died clutching papers just like yours, terrified of the day the train would run across the line. He spent his whole life watching a wall, waiting for an attack, completely blind to the world he was missing. You don&#39;t have to live in his prison anymore.&quot;]
-                
-                {
-                (after: 2s)[
-                    (transition: &quot;instant&quot;)[
-                        &lt;br&gt;&lt;br&gt;
-                        The man looks completely stunned, his defensive architecture shattered by unexpected warmth. He stares silently at the steaming tea, his hands shaking slightly as the realization sinks in that he is no longer an oppressor or a target—just a passenger among equals.
-                        &lt;br&gt;&lt;br&gt;
-                        [[Proceed to Jerusalem...-&gt;Background AD]]
-                    ]
-                ]
-                }
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;It&#39;s terrifying, isn&#39;t it? Knowing that the old documents don&#39;t protect you anymore. My father held those exact same papers. He thought they made him safe, but they just kept him lonely. Drink the tea. No one is taking your home away anymore, but you don&#39;t get to own the cabin.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **The Man:** *(Staring down at the hot tea, voice trembling)* &quot;You think a cup of tea fixes this? They want us gone. They always wanted us gone. That key around her neck—that&#39;s a direct threat to my existence.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **Vera:** *(Softly, joining the booth)* &quot;It&#39;s a key to a house that was demolished in 1948 to build a parking lot for your old military base. It&#39;s not a weapon. It&#39;s just proof that we remember the names of the streets.&quot;
+        &lt;br&gt;&lt;br&gt;
+        (link-reveal: &quot;➥ Reassure him about the future&quot;) [
+            (transition: &quot;fade&quot;)[
+                **Lewis:** &quot;My father died clutching papers just like yours, terrified of the day the train would run across the line. He spent his whole life watching a wall, waiting for an attack, completely blind to the world he was missing. You don&#39;t have to live in his prison anymore.&quot;
+                &lt;br&gt;&lt;br&gt;
+                The man looks completely stunned, his defensive architecture shattered by unexpected warmth. He stares silently at the steaming tea, his hands shaking slightly as the realization sinks in that he is no longer an oppressor or a target—just a passenger among equals.
+                &lt;br&gt;&lt;br&gt;
+                [[Proceed to Jerusalem...-&gt;Background AD]]
             ]
         ]
     ]
-    }
 ]</tw-passagedata><tw-passagedata pid="12" name="Choice BC" tags="" position="225,225" size="100,100">You stand firmly, crossing your arms, and look down at his regional transit assignment marker.
 
 (link-reveal: &quot;➥ Assert the Transit Accord&quot;) [
-    (transition: &quot;instant&quot;)[**Lewis:** &quot;Sir, under Section 4 of the Levant Transit Accord, all physical space on public infrastructure belongs equally to the passengers occupying it. Private ownership of transit assets was dismantled during the general strike. If you refuse to share the booth, I will have to log a charter violation with the Haifa-Jerusalem Labor Council. We can share the space, or we can resolve this at the next regional platform.&quot;]
-    
-    {
-    (after: 2s)[
-        (transition: &quot;instant&quot;)[
-            &lt;br&gt;&lt;br&gt;
-            **The Man:** &quot;You can&#39;t just wave a collective charter and erase seventy years of defense! Gaza was a security reality. We built those walls because we had to!&quot;
-            &lt;br&gt;&lt;br&gt;
-            (link-reveal: &quot;➥ Respond about the cargo hold&quot;) [
-                (transition: &quot;instant&quot;)[**Lewis:** &quot;We are carrying aggregate from that wall in the cargo bay right now, sir. It turns out the soil inside Gaza was choked of oxygen for eighty years because of your &#39;security reality.&#39; The Accord didn&#39;t erase your history; it just stopped prioritizing your safety at the expense of another family&#39;s suffocation. Please move the bags.&quot;]
-                
-                {
-                (after: 2s)[
-                    (transition: &quot;instant&quot;)[
-                        &lt;br&gt;&lt;br&gt;
-                        The man scoffs, visibly intimidated by the unyielding structural logic of the new world. He angrily pulls his luggage tight to his chest, muttering bitterly under his breath about the &quot;total loss of order.&quot;
-                        &lt;br&gt;&lt;br&gt;
-                        [[Proceed to Jerusalem...-&gt;Background BC]]
-                    ]
-                ]
-                }
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;Sir, under Section 4 of the Levant Transit Accord, all physical space on public infrastructure belongs equally to the passengers occupying it. Private ownership of transit assets was dismantled during the general strike. If you refuse to share the booth, I will have to log a charter violation with the Haifa-Jerusalem Labor Council. We can share the space, or we can resolve this at the next regional platform.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **The Man:** &quot;You can&#39;t just wave a collective charter and erase seventy years of defense! Gaza was a security reality. We built those walls because we had to!&quot;
+        &lt;br&gt;&lt;br&gt;
+        (link-reveal: &quot;➥ Respond about the cargo hold&quot;) [
+            (transition: &quot;fade&quot;)[
+                **Lewis:** &quot;We are carrying aggregate from that wall in the cargo bay right now, sir. It turns out the soil inside Gaza was choked of oxygen for eighty years because of your &#39;security reality.&#39; The Accord didn&#39;t erase your history; it just stopped prioritizing your safety at the expense of another family&#39;s suffocation. Please move the bags.&quot;
+                &lt;br&gt;&lt;br&gt;
+                The man scoffs, visibly intimidated by the unyielding structural logic of the new world. He angrily pulls his luggage tight to his chest, muttering bitterly under his breath about the &quot;total loss of order.&quot;
+                &lt;br&gt;&lt;br&gt;
+                [[Proceed to Jerusalem...-&gt;Background BC]]
             ]
         ]
     ]
-    }
 ]</tw-passagedata><tw-passagedata pid="13" name="Choice BD" tags="" position="350,225" size="100,100">You bypass his legalistic aggression entirely, choosing to address the underlying isolation and reactionary fear of his fading mindset.
 
 You sit down right next to him, gently pushing his luggage aside just enough to make room. You pour a fresh cup of herbal tea from your steward&#39;s cart and slide it across the table toward him.
 
 (link-reveal: &quot;➥ Speak with radical empathy&quot;) [
-    (transition: &quot;instant&quot;)[**Lewis:** &quot;It&#39;s terrifying, isn&#39;t it? Knowing that the old documents don&#39;t protect you anymore. My father held those exact same papers. He thought they made him safe, but they just kept him lonely. Drink the tea. No one is taking your home away anymore, but you don&#39;t get to own the cabin.&quot;]
-    
-    {
-    (after: 2s)[
-        (transition: &quot;instant&quot;)[
-            &lt;br&gt;&lt;br&gt;
-            **The Man:** *(Staring down at the hot tea, voice trembling)* &quot;You think a cup of tea fixes this? They want us gone. They always wanted us gone. That key around her neck—that&#39;s a direct threat to my existence.&quot;
-            &lt;br&gt;&lt;br&gt;
-            **Vera:** *(Softly, joining the booth)* &quot;It&#39;s a key to a house that was demolished in 1948 to build a parking lot for your old military base. It&#39;s not a weapon. It&#39;s just proof that we remember the names of the streets.&quot;
-            &lt;br&gt;&lt;br&gt;
-            (link-reveal: &quot;➥ Reassure him about the future&quot;) [
-                (transition: &quot;instant&quot;)[**Lewis:** &quot;My father died clutching papers just like yours, terrified of the day the train would run across the line. He spent his whole life watching a wall, waiting for an attack, completely blind to the world he was missing. You don&#39;t have to live in his prison anymore.&quot;]
-                
-                {
-                (after: 2s)[
-                    (transition: &quot;instant&quot;)[
-                        &lt;br&gt;&lt;br&gt;
-                        The man looks completely stunned, his defensive architecture shattered by unexpected warmth. He stares silently at the steaming tea, his hands shaking slightly as the realization sinks in that he is no longer an oppressor or a target—just a passenger among equals.
-                        &lt;br&gt;&lt;br&gt;
-                        [[Proceed to Jerusalem...-&gt;Background BD]]
-                    ]
-                ]
-                }
+    (transition: &quot;fade&quot;)[
+        **Lewis:** &quot;It&#39;s terrifying, isn&#39;t it? Knowing that the old documents don&#39;t protect you anymore. My father held those exact same papers. He thought they made him safe, but they just kept him lonely. Drink the tea. No one is taking your home away anymore, but you don&#39;t get to own the cabin.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **The Man:** *(Staring down at the hot tea, voice trembling)* &quot;You think a cup of tea fixes this? They want us gone. They always wanted us gone. That key around her neck—that&#39;s a direct threat to my existence.&quot;
+        &lt;br&gt;&lt;br&gt;
+        **Vera:** *(Softly, joining the booth)* &quot;It&#39;s a key to a house that was demolished in 1948 to build a parking lot for your old military base. It&#39;s not a weapon. It&#39;s just proof that we remember the names of the streets.&quot;
+        &lt;br&gt;&lt;br&gt;
+        (link-reveal: &quot;➥ Reassure him about the future&quot;) [
+            (transition: &quot;fade&quot;)[
+                **Lewis:** &quot;My father died clutching papers just like yours, terrified of the day the train would run across the line. He spent his whole life watching a wall, waiting for an attack, completely blind to the world he was missing. You don&#39;t have to live in his prison anymore.&quot;
+                &lt;br&gt;&lt;br&gt;
+                The man looks completely stunned, his defensive architecture shattered by unexpected warmth. He stares silently at the steaming tea, his hands shaking slightly as the realization sinks in that he is no longer an oppressor or a target—just a passenger among equals.
+                &lt;br&gt;&lt;br&gt;
+                [[Proceed to Jerusalem...-&gt;Background BD]]
             ]
         ]
     ]
-    }
-]</tw-passagedata><tw-passagedata pid="14" name="Background AC" tags="" position="475,225" size="100,100">As the characters continue on their train ride, they pass through what were once hostile and deadly borders where only ruins stand, covered in vines and vibrant graffiti. 
+]</tw-passagedata><tw-passagedata pid="14" name="Background AC" tags="" position="475,225" size="100,100">As the train climbs higher into the hills, it passes through what were once hostile and deadly borders. Now, only ruins stand along the ridge, heavily covered in wild vines and vibrant, sprawling graffiti.
 
-Vera looks out at this with a bittersweet feeling, glad that she can finally see a borderless Palestine but sad that those who suffered before her will never get to experience an oppression-less life. Lewis looks at the shifting landscape, trying to fully understand why his father spent a lifetime protecting such a destructive status quo.
+Vera looks out at the open hills with a bittersweet expression, grateful to witness a borderless landscape but mourning the generations who never got to experience life outside the shadow of oppression. You look out at the shifting typography, trying to reconcile the vast beauty of the land with the destructive status quo your father spent a lifetime protecting.
 
-The train mounts the final scenic ridge as the golden stone of Jerusalem appears on the horizon...
+The train mounts the final scenic ridge, and the ancient, golden stone of Jerusalem catches the late afternoon light on the horizon...
 
-[[Arrive at the Terminal-&gt;Ending AC]]</tw-passagedata><tw-passagedata pid="15" name="Background AD" tags="" position="600,225" size="100,100">As the characters continue on their train ride, they pass through what were once hostile and deadly borders where only ruins stand, covered in vines and vibrant graffiti. 
+[[Arrive at the Terminal-&gt;Ending AC]]</tw-passagedata><tw-passagedata pid="15" name="Background AD" tags="" position="600,225" size="100,100">As the train climbs higher into the hills, it passes through what were once hostile and deadly borders. Now, only ruins stand along the ridge, heavily covered in wild vines and vibrant, sprawling graffiti.
 
-Vera looks out at this with a bittersweet feeling, glad that she can finally see a borderless Palestine but sad that those who suffered before her will never get to experience an oppression-less life. Lewis looks at the shifting landscape, trying to fully understand why his father spent a lifetime protecting such a destructive status quo.
+Vera looks out at the open hills with a bittersweet expression, grateful to witness a borderless landscape but mourning the generations who never got to experience life outside the shadow of oppression. You look out at the shifting typography, trying to reconcile the vast beauty of the land with the destructive status quo your father spent a lifetime protecting.
 
-The train mounts the final scenic ridge as the golden stone of Jerusalem appears on the horizon...
+The train mounts the final scenic ridge, and the ancient, golden stone of Jerusalem catches the late afternoon light on the horizon...
 
-[[Arrive at the Terminal-&gt;Ending AD]]</tw-passagedata><tw-passagedata pid="16" name="Background BC" tags="" position="725,225" size="100,100">As the characters continue on their train ride, they pass through what were once hostile and deadly borders where only ruins stand, covered in vines and vibrant graffiti. 
+[[Arrive at the Terminal-&gt;Ending AD]]</tw-passagedata><tw-passagedata pid="16" name="Background BC" tags="" position="725,225" size="100,100">As the train climbs higher into the hills, it passes through what were once hostile and deadly borders. Now, only ruins stand along the ridge, heavily covered in wild vines and vibrant, sprawling graffiti.
 
-Vera looks out at this with a bittersweet feeling, glad that she can finally see a borderless Palestine but sad that those who suffered before her will never get to experience an oppression-less life. Lewis looks at the shifting landscape, trying to fully understand why his father spent a lifetime protecting such a destructive status quo.
+Vera looks out at the open hills with a bittersweet expression, grateful to witness a borderless landscape but mourning the generations who never got to experience life outside the shadow of oppression. You look out at the shifting typography, trying to reconcile the vast beauty of the land with the destructive status quo your father spent a lifetime protecting.
 
-The train mounts the final scenic ridge as the golden stone of Jerusalem appears on the horizon...
+The train mounts the final scenic ridge, and the ancient, golden stone of Jerusalem catches the late afternoon light on the horizon...
 
-[[Arrive at the Terminal-&gt;Ending BC]]</tw-passagedata><tw-passagedata pid="17" name="Background BD" tags="" position="850,225" size="100,100">As the characters continue on their train ride, they pass through what were once hostile and deadly borders where only ruins stand, covered in vines and vibrant graffiti. 
+[[Arrive at the Terminal-&gt;Ending BC]]</tw-passagedata><tw-passagedata pid="17" name="Background BD" tags="" position="850,225" size="100,100">As the train climbs higher into the hills, it passes through what were once hostile and deadly borders. Now, only ruins stand along the ridge, heavily covered in wild vines and vibrant, sprawling graffiti.
 
-Vera looks out at this with a bittersweet feeling, glad that she can finally see a borderless Palestine but sad that those who suffered before her will never get to experience an oppression-less life. Lewis looks at the landscape trying to fully understand why his father spent a lifetime protecting such a destructive status quo.
+Vera looks out at the open hills with a bittersweet expression, grateful to witness a borderless landscape but mourning the generations who never got to experience life outside the shadow of oppression. You look out at the shifting typography, trying to reconcile the vast beauty of the land with the destructive status quo your father spent a lifetime protecting.
 
-The train mounts the final scenic ridge as the golden stone of Jerusalem appears on the horizon...
+The train mounts the final scenic ridge, and the ancient, golden stone of Jerusalem catches the late afternoon light on the horizon...
 
 [[Arrive at the Terminal-&gt;Ending BD]]</tw-passagedata><tw-passagedata pid="18" name="Ending AC" tags="" position="975,225" size="100,100">The old man sits in stiff silence, his bags pulled tightly to his side, unmoving. Vera stares out at the arriving platform, her grandfather&#39;s story now officially indexed as File #48-GZ in the train&#39;s digital central server. 
 
@@ -417,34 +317,36 @@ While the memories are safely recorded for history, they sit quietly behind a sc
 
 Standing by the door with Vera, you look out at the immaculate but starkly quiet platform. It feels as though we have built a society so intent on managing historical trauma through policy, codes, and digital archives that we have forgotten how to actually look at one another. A thick layer of emotional detachment lingers in the air; everyone walks on eggshells, deeply aware of opposing backgrounds but completely failing to connect. The past is no longer a physical wall, but the fear of it keeps everyone trapped inside themselves.
 
-[[Epilogue-&gt;Outro]]</tw-passagedata><tw-passagedata pid="19" name="Ending AD" tags="" position="1100,225" size="100,100">The sharp friction in the air slowly dissipates, replaced by the gentle steam rising from the old man&#39;s teacup. By the time the train begins its final descent into the terminal, the defensive boundaries have completely melted away. The old man leans closer to the window, pointing out a quiet valley below to tell Vera exactly where the wild almond trees still bloom in the spring.
+[[Step off the train...-&gt;Outro]]</tw-passagedata><tw-passagedata pid="19" name="Ending AD" tags="" position="1100,225" size="100,100">The sharp friction in the air slowly dissipates, replaced by the gentle steam rising from the old man&#39;s teacup. By the time the train begins its final descent into the terminal, the defensive boundaries have completely melted away. The old man leans closer to the window, pointing out a quiet valley below to tell Vera exactly where the wild almond trees still bloom in the spring.
 
 The weight of history still lingers in the cabin, but it no longer feels like a cage. When the brakes release and the doors slide open, the station environment feels remarkably soft, patient, and deeply human. 
 
 Vera steps off the train, her hand resting lightly over the brass key. She walks directly toward the station&#39;s communal garden, ready to plant something new, entirely free of the ghosts that followed you up the mountain.
 
-[[Epilogue-&gt;Outro]]</tw-passagedata><tw-passagedata pid="20" name="Ending BC" tags="" position="1225,225" size="100,100">The train chimes sharply, signaling your arrival in Jerusalem precisely on the second. The automated magnetic brakes hiss in perfect unison as the lower cargo bay doors snap open, instantly transferring the crushed Gaza concrete aggregate into the waiting distribution hoppers of the Jerusalem agricultural commune.
+[[Step off the train...-&gt;Outro]]</tw-passagedata><tw-passagedata pid="20" name="Ending BC" tags="" position="1225,225" size="100,100">The train chimes sharply, signaling your arrival in Jerusalem precisely on the second. The automated magnetic brakes hiss in perfect unison as the lower cargo bay doors snap open, instantly transferring the crushed Gaza concrete aggregate into the waiting distribution hoppers of the Jerusalem agricultural commune.
 
 The old man watches the heavy machinery operate from the window, his outdated, laminated property deeds looking entirely irrelevant against the massive, beautiful efficiency of the collective Levant. 
 
-The scars of the old world are handled here with absolute, unyielding logic. Every fragment of the past is being systemically rebuilt, repurposed, and optimized by an industrious, borderless machine that prioritizes structural output above all else.
+The scars of the old world are handled here with absolute, unyielding logic. Every fragment of the past is being systemically rebuilt, repurposed, and optimized by an industrious, borderless machine that prioritizes structural output above all else. 
 
-[[Epilogue-&gt;Outro]]</tw-passagedata><tw-passagedata pid="21" name="Ending BD" tags="" position="100,350" size="100,100">When the train hits the platform, the doors don&#39;t just slide open—they explode with kinetic energy and movement. The young students from the lounge car are already hoisting crates of fresh Gaza citrus onto their shoulders, their voices echoing the rhythms of the traditional Dabke dance that started miles back down the coast.
+[[Step off the train...-&gt;Outro]]</tw-passagedata><tw-passagedata pid="21" name="Ending BD" tags="" position="100,350" size="100,100">When the train hits the platform, the doors don&#39;t just slide open—they explode with kinetic energy and movement. The young students from the lounge car are already hoisting crates of fresh Gaza citrus onto their shoulders, their voices echoing the rhythms of the traditional Dabke dance that started miles back down the coast.
 
 The old man gets swept right into the center of the roaring crowd. Before he can even utter a word of protest, a laughing teenager thrusts a heavy wooden crate of oranges directly into his arms.
 
 The strict distinctions between steward, traveler, and refugee instantly vanish in the dust and commotion of the platform. You haven&#39;t just arrived at a physical terminal; you have stepped directly into a living, breathing community, loudly and joyfully working through its collective trauma with bare hands.
 
-[[Epilogue-&gt;Outro]]</tw-passagedata><tw-passagedata pid="22" name="Outro" tags="" position="225,350" size="100,100">### What We Hoped to Accomplish
+[[Step off the train...-&gt;Outro]]</tw-passagedata><tw-passagedata pid="22" name="Outro" tags="" position="225,350" size="100,100">Your journey on the Levant Express has come to a close, but the tracks of the new world are still actively being laid. 
 
-While your adventure on the Levant Express has come to an end, we hope you took many life lessons away. If nothing else, we hope you take this one truth with you: **we can only reach this extent of peace by acting.**
+Liberation is not a static destination reached at the end of a train line, nor is it a passive landscape to admire from a window. This game was designed as a reminder that the world we inhabit is shaped continuously by the friction of everyday actions. A borderless future doesn&#39;t build itself out of thin air—it is actively fought for, negotiated, and maintained through structural change and personal accountability.
 
-With the rise of passive media, it often feels as if we are doing something meaningful simply by reposting a statement or sharing a video. While this can sometimes be a catalyst for future action, if we are too afraid to take structural change into our own hands, nothing will ever truly change.
+Every single day, you are presented with choices. Every day, in your own communities, networks, and daily routines, you have the opportunity to make a difference. You can actively call out the lingering structures of settler-colonialism, you can choose to hold space for an ancestral memory that demands to be heard, or you can extend a simple cup of tea to shatter a wall of reactionary fear with radical empathy(the act of immersing yourself in another&#39;s story without judgement or fear of being judged, the ability to examine our own thoughts, feelings, biases, and privileges). 
 
-We leave you with one last quote by the revolutionary activist Malcolm X:
-&gt; *&quot;You don&#39;t have a peaceful revolution. You don&#39;t have a turn-the-cheek revolution. There&#39;s no such thing as a nonviolent revolution.&quot;*
+Peace is not the absence of conflict; it is the presence of collective care and active courage. 
 
-Thank you for riding the Levant Express. We hope to see you soon on the rails.
+As you step out into the sunlight of your own horizon, we leave you with the words of the revolutionary activist Malcolm X:
+&gt; *&quot;You don&#39;t have a turn-the-cheek revolution. There&#39;s no such thing as a nonviolent revolution.&quot;*
+
+Thank you for riding. 
 
 **The End.**</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
